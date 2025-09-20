@@ -1,51 +1,39 @@
+# Projeto de Exemplo com Maven 🚀
 
-# Projeto de Exemplo com Maven
+## Sobre o Projeto
+Este é o meu primeiro projeto Java desenvolvido com o Apache Maven, seguindo as melhores práticas de gerenciamento de dependências e automação de compilação. O objetivo deste projeto é explorar os fundamentos de um projeto Java moderno, utilizando ferramentas padrão do mercado.
 
-Este é um projeto simples desenvolvido com o **Apache Maven**, focado em demonstrar práticas de gerenciamento de dependências, automação de compilação e organização de um projeto em Java. O objetivo é explorar o funcionamento de um projeto Java moderno utilizando ferramentas padrão do mercado.
+## Funcionalidades ✨
+- Configuração de um projeto Java com o Maven.
+- Gerenciamento de dependências.
+- Estrutura de código modular (`dto`, `model`, `mapper`).
+- Uso de bibliotecas externas (Lombok e MapStruct).
 
+## Aprendizado e Desafios 🧠
+Este projeto foi uma jornada de aprendizado intensiva sobre o ecossistema de desenvolvimento Java. Durante o processo, foram enfrentados e superados diversos desafios, o que fortaleceu minhas habilidades como desenvolvedor:
+
+- **Instalação e Configuração:** O projeto foi configurado manualmente no Windows, incluindo a instalação do Maven, a configuração das variáveis de ambiente (`JAVA_HOME` e `M2_HOME`) e a validação do ambiente via CMD.
+
+- **Depuração de Erros de Compilação:** Foram resolvidos erros persistentes no `pom.xml` relacionados a versões de plugins (`maven-compiler-plugin`) e a dependências de anotação de processador (`lombok-mapstruct-binding`).
+
+- **Sintaxe Java:** Foram corrigidos erros de sintaxe e convenções de nomenclatura em classes Java, como `UserModel` e `Main`.
+
+- **Ferramentas de Desenvolvimento:** Foi utilizado o IntelliJ IDEA para o desenvolvimento do projeto e o Git para o versionamento e envio para o GitHub.
+
+## Status do Projeto ⚠️
+Atualmente, o projeto apresenta um erro de compilação complexo e persistente, que foi diagnosticado como um problema de ambiente e não de código. O projeto está completo em sua estrutura e código, e serve como prova de conceito das habilidades adquiridas.
+
+## Pré-requisitos ⚙️
+- JDK 24 ou superior
+- Apache Maven 3.x
+
+## Como Rodar o Projeto ▶️
+- Para compilar o projeto: `mvn clean install`
+
+- Para rodar a classe principal: `java -cp target/classes/ com.meuapp.projeto.Main`
+
+## Prova de Conceito 📸
+Abaixo, uma captura de tela do projeto funcionando ou do erro que está ocorrendo, mostrando a minha capacidade de lidar com problemas.
+
+![Adicione a imagem aqui](https://i.imgur.com/your-image-url.png)
 ---
-
-## 🚀 Tecnologias Utilizadas
-- **Linguagem:** Java  
-- **Gerenciador de Dependências:** Maven  
-- **IDE Recomendada:** IntelliJ IDEA ou Eclipse  
-- **Controle de Versão:** Git  
-
----
-
-## 📦 Funcionalidades do Projeto
-- Configuração de um projeto Java com Maven  
-- Gerenciamento de dependências  
-- Estruturação de código modular (src, model, mapper)  
-- Geração de builds automatizados  
-
----
-
-## 🔧 Como Rodar o Projeto
-
-```bash
-# Clone o repositório
-# Clone o repositório
-
-[Clone o repositório](https://github.com/Richard-Sup-Dev/dio-primeiro-projeto-maven.git)
-
-
-
-# Abra o projeto na sua IDE de preferência (IntelliJ IDEA, Eclipse, VS Code)
-
-# Compile o projeto usando o Maven
-mvn clean install
-
-# Execute a classe principal
-mvn exec:java -Dexec.mainClass="com.meuprojeto.Main"
-📂 Estrutura do Projeto
-bash
-Copiar código
-meu-projeto-maven/
-├── src/
-│   ├── main/
-│   │   ├── java/com/meuprojeto/Main.java
-│   │   └── resources/
-│   └── test/
-│       └── java/
-├── pom.xml
