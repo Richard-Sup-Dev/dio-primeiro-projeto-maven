@@ -32,8 +32,4 @@ Atualmente, o projeto apresenta um erro de compilação complexo e persistente, 
 
 - Para rodar a classe principal: `java -cp target/classes/ com.meuapp.projeto.Main`
 
-## Prova de Conceito 📸
-Abaixo, uma captura de tela do projeto funcionando ou do erro que está ocorrendo, mostrando a minha capacidade de lidar com problemas.
-
-![Adicione a imagem aqui](https://i.imgur.com/your-image-url.png)
 ---
