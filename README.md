@@ -47,5 +47,3 @@ meu-projeto-maven/
 │   └── test/
 │       └── java/
 ├── pom.xml
-📸 Print
-<img width="1366" height="722" alt="{D0ED4992-6688-45E0-87AC-B6D09DC20279}" src="https://github.com/user-attachments/assets/571c146b-e44c-43e4-a5ad-3e231526aeed" />
