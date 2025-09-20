@@ -26,7 +26,8 @@ Este é um projeto simples desenvolvido com o **Apache Maven**, focado em demons
 ```bash
 # Clone o repositório
 # Clone o repositório
-git clone https://github.com/Richard-Sup-Dev/dio-primeiro-projeto-maven.git
+[Clone o repositório](https://github.com/Richard-Sup-Dev/dio-primeiro-projeto-maven.git)
+
 
 
 # Abra o projeto na sua IDE de preferência (IntelliJ IDEA, Eclipse, VS Code)
