@@ -36,4 +36,5 @@ Para compilar o projeto: mvn clean install
 Para rodar a classe principal: java -cp target/classes/ com.meuapp.projeto.Main
 
 Prova de Conceito 📸
-Abaixo, uma captura de tela do projeto funcionando ou do erro que está ocorrendo, mostrando a minha capacidade de lidar com problemas.
+
+<img width="1366" height="723" alt="{7F860263-996C-4FD8-B675-73D5A3F5EA88}" src="https://github.com/user-attachments/assets/b424cecf-bc20-4786-99a5-fbde8c619fff" />
